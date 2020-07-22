@@ -1,0 +1,242 @@
+/* NavBar*/
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+   float: right;
+   text-align: left;
+}
+
+#navbar-brand{
+    color : #fff;
+}
+
+#nav-bar ul li a:hover {
+    color: grey !important;
+ }
+ 
+ .navbar{
+     background: rgba(0, 0, 255, 0.966);
+ }
+ 
+ .navbar-toggler{
+     border: none !important;
+ }
+ 
+ .nav-link{
+     color: #fff !important;
+     font-weight:600 ;
+ }
+
+ .log{
+     color: #fff;
+     margin-top: 1px;
+ }
+
+/*Slider*/
+
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-20%);
+  bottom: initial!important;
+}
+
+.carousel-caption h5{
+    color: #fff;
+    font-size: 42px;
+}
+
+/*about*/
+
+.container{
+    margin: auto;
+    margin-left: 2px;
+}
+
+.info p{
+    margin-left: 2px;
+}
+
+#About h3{
+  margin: 20px 0;  
+}
+
+/*Newsletter*/
+
+#newsletter{ 
+        background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(icon.png);
+        background-size: cover;
+        background-position: center;
+        color: #efefef !important;
+        background-attachment: fixed;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 15px;
+}
+
+#email{
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+/*Get in Touch*/
+
+#contact{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+
+.contact-form{
+    padding: 15px;
+}
+
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+::placeholder{
+    color: #999 !important;
+}
+
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+
+#contact .fab{
+    margin: 10px;
+    color: #007bfe;
+    font-weight: bold;
+}
+
+#contact .fas{
+    margin: 10px;
+    color: #007bfe;
+    font-weight: bold;
+}
+
+/*Footer*/
+
+#footer{
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 31%, rgba(1,190,241,1) 93%, rgba(1,190,241,1) 93%, rgba(1,190,241,1) 93%, rgba(0,212,255,1) 100%);
+}
+
+#footer h3{
+    color : #fff;
+}
+
+#footer span{
+    color: rgba(225, 250, 0);
+}
+
+#footer.fab{
+    margin: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#footer.more-on{
+    float: right;
+}
+
+/*Online Team*/
+
+/*Team Members*/
+
+#team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:  #555;
+}
+
+h1{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+
+h1::after{
+    content: '';
+    background: #007bf0;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px; 
+}
+
+.profile-pic{
+    margin-top: 25px;
+}
+
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.profile-pic .img-box img{
+    filter: grayscale(1);
+}
+
+.profile-pic .img-box img:hover{
+    filter: grayscale(0);
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.profile-pic h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bf0 !important;
+}
+
+.profile-pic h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#team .fab{
+    height: 22px;
+    width: 22px;
+    color: #007bf0;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.img-box ul{
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: rotateX(-50%);
+    opacity: 0;
+}
+
+.img-box ul li{
+    padding: 5px;
+    display: inline-block;
+}
+
+.img-box:hover ul{
+    opacity: 1;
+}
+
+.img-box ul, .img-box ul li{
+    transition: 0.5s;
+}
